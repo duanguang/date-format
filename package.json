@@ -1,16 +1,30 @@
 {
-  "name": "@kad/legion-store-utils",
+  "name": "@duanguang/date-format",
   "version": "0.0.1",
-  "description": "store Framework",
+  "description": "date format",
   "main": "lib/index.js",
-  "repository": "http://gogs.360kad.com/legion/legion-store-utils",
+  "repository": "https://github.com/duanguang/date-format.git",
   "author": "duanguang",
   "license": "MIT",
+  "keywords": [
+    "timeago",
+    "datetime",
+    "date-format",
+    "date",
+    "format"
+  ],
   "scripts": {
     "build": "rimraf lib && babel src --out-dir lib",
     "test": "cross-env NODE_ENV=test nyc mocha --no-timeouts",
     "debug": "mocha --require babel-register --require ./test/setup.js --no-timeouts"
   },
+  "bugs": {
+    "url": "https://github.com/duanguang/date-format/issues"
+  },
+  "homepage": "https://github.com/duanguang/date-format.git",
+  "files": [
+     "lib/"
+  ],
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-core": "^6.9.1",
