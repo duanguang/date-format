@@ -1,5 +1,5 @@
 {
-  "name": "@duanguang/date-format",
+  "name": "date-format",
   "version": "0.0.1",
   "description": "date format",
   "main": "lib/index.js",
