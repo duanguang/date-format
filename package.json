@@ -1,9 +1,9 @@
 {
-  "name": "date-format",
+  "name": "type-format-utils",
   "version": "0.0.1",
   "description": "date format",
   "main": "lib/index.js",
-  "repository": "https://github.com/duanguang/date-format.git",
+  "repository": "https://github.com/duanguang/type-format-utils.git",
   "author": "duanguang",
   "license": "MIT",
   "keywords": [
@@ -19,9 +19,9 @@
     "debug": "mocha --require babel-register --require ./test/setup.js --no-timeouts"
   },
   "bugs": {
-    "url": "https://github.com/duanguang/date-format/issues"
+    "url": "https://github.com/duanguang/type-format-utils/issues"
   },
-  "homepage": "https://github.com/duanguang/date-format.git",
+  "homepage": "https://github.com/duanguang/type-format-utils.git",
   "files": [
      "lib/"
   ],
