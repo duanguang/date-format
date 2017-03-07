@@ -1,6 +1,6 @@
 {
   "name": "type-format-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "date format",
   "main": "lib/index.js",
   "repository": "https://github.com/duanguang/type-format-utils.git",
@@ -11,7 +11,11 @@
     "datetime",
     "date-format",
     "date",
-    "format"
+    "format",
+    "type",
+    "type-format",
+    "format-util",
+    "type-format-utils"
   ],
   "scripts": {
     "build": "rimraf lib && babel src --out-dir lib",
