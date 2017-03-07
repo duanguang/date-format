@@ -4,7 +4,10 @@
 
 
 import {dateFormat} from './dateFormat';
-
+import {decimalFormat} from "./decimalFormat";
+import {numberFormat} from "./numberFormat";
 module.exports={
-    dateFormat:dateFormat()
+    dateFormat:dateFormat(),
+    decimalFormat:decimalFormat(),
+    numberFormat:numberFormat()
 }

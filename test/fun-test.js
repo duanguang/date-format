@@ -2,7 +2,7 @@
  * Created by duanguang on 2017/3/2.
  */
 /*import {timeagoFormat,formatDate,parseDate,formatDateToFriendly,formatDurationToFriendly,formatTimeToFriendly,getMonthDays,countDays} from '../lib/index';*/
-import {dateFormat} from '../lib/index';
+import {dateFormat,numberFormat,decimalFormat} from '../lib/index';
 describe('test1', () => {
     it('timeagoFormat', () => {
        var s=dateFormat.timeagoFormat('2016-06-10 12:12:00','2016-06-10 12:14:12');
@@ -42,4 +42,16 @@ describe('test1', () => {
     it('countDays', () => {
         console.log(dateFormat.countDays('2017-03-02','2017-01-28'));
     });
+    it('miliFormat', () => {
+        console.log(numberFormat.miliFormat(2000000.88));
+    });
+
+    it('numberFormatMoney', () => {
+        console.log(decimalFormat.numberFormatMoney(2000000.888));
+    });
+
+    it('digitUppercase', () => {
+        console.log(decimalFormat.digitUppercase(20.88));
+    });
+
 });
