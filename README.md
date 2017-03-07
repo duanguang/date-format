@@ -6,7 +6,7 @@ npm install type-format-utils --save
 or
 yarn add  type-format-utils
 
-Such as
+# 2.Such as
 import {dateFormat} from 'type-format-utils';
 
 dateFormat.timeagoFormat('2016-06-10 12:12:00','2016-06-10 12:14:12');//2分钟前
